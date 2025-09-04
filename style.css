@@ -1,0 +1,17 @@
+body {
+    position: relative;
+}
+
+.quad1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.quad2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
