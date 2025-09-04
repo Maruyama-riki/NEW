@@ -2,14 +2,14 @@ body {
     position: relative;
 }
 
-.quad1 {
+main {
     position: absolute;
     width: 100px;
     height: 100px;
     background-color: aqua;
 }
 
-.quad2 {
+.imge {
     position: relative;
     width: 100px;
     height: 100px;
