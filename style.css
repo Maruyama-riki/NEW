@@ -3,15 +3,19 @@ body {
 }
 
 main {
-    position: absolute;
+    position: center;
     width: 100px;
     height: 100px;
     background-color: aqua;
+    align-items: center;
+}
+.text-frutas{
+    text-align: center;
 }
 
 .imge {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 100vw;
+    height: 100hv;
     background-color: blueviolet;
 }
