@@ -1,21 +1,31 @@
 body {
-    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
 }
 
 main {
-    position: center;
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-    align-items: center;
-}
-.text-frutas{
     text-align: center;
 }
 
+.text-frutas {
+    font-size: 8vw; 
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
 .imge {
-    position: relative;
-    width: 100vw;
-    height: 100hv;
-    background-color: blueviolet;
+    width: 30vw;       
+    min-width: 70vw;  
+    max-width: 80vw;  
+    height: auto;      
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
